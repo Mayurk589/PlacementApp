@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#0094E4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:text="TPC Dashboard"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Buttons Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <!-- View Student Details Button -->
+            <Button
+                android:id="@+id/btnViewStudentDetails"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/box_background"
+                android:text="View Student Details"
+                android:backgroundTint="#00ABE4"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Create Event Button -->
+            <Button
+                android:id="@+id/btnCreateEvent"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/box_background"
+                android:text="Create Event"
+                android:backgroundTint="#00ABE4"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Search Button -->
+
+
+            <Button
+                android:id="@+id/btnExport"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/box_background"
+                android:text="Export student data"
+                android:backgroundTint="#00ABE4"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Logout Button -->
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/box_background"
+                android:text="Logout"
+                android:backgroundTint="#00ABE4"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

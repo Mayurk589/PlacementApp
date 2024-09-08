@@ -1,0 +1,162 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E9F1FA">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#E9F1FA"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:background="#009CE4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="25dp"
+                android:text="Academic Details"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#E9F1FA"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Name"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Phone Number"
+                android:inputType="phone"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etUsn"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Usn"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etBranch"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Branch"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etSemester"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Semester"
+                android:inputType="number"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etYear"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Year"
+                android:inputType="number"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etPercentage"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Percentage"
+                android:inputType="numberDecimal"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etCGPL"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter CGPA"
+                android:inputType="numberDecimal"
+                android:drawablePadding="8dp" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/box_background"
+                android:text="Submit"
+                android:backgroundTint="#00ABE4"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

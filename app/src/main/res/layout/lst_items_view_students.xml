@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#E9F1FA"
+    android:padding="16dp">
+
+    <!-- Note Image -->
+    <ImageView
+        android:id="@+id/noteImageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/splash"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Note Details -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUSN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USN"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note Description"/>
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note Author"/>
+    </LinearLayout>
+
+</LinearLayout>

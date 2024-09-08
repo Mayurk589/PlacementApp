@@ -1,0 +1,15 @@
+<!-- Layout for EventsActivity -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1FA"
+    android:padding="16dp">
+
+    <!-- ListView to display events -->
+    <ListView
+        android:id="@+id/listStudents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1FA"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etSearchQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_toStartOf="@id/btnSearch"
+        android:background="@drawable/edittext_background"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:hint="Enter Usn"
+        android:drawablePadding="8dp" />
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/box_background"
+        android:text="Search"
+        android:backgroundTint="#00ABE4"/>
+
+    <!-- ListView to display students -->
+    <ListView
+        android:id="@+id/listStudents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/etSearchQuery"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#00ABE4"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:text="Student Application"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Academic, Contact, Educational, and Resume Details Sections -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical">
+
+                <!-- Academic Details Section -->
+                <Button
+                    android:id="@+id/btnAcademicDetails"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Enter Academic Details"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:backgroundTint="#6D00ABE4"
+                    android:drawablePadding="8dp" />
+
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Contact Details Section -->
+                <Button
+                    android:id="@+id/btnContactDetails"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Enter Contact Details"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:backgroundTint="#6D00ABE4"
+                    android:drawablePadding="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical">
+
+                <!-- Educational Details Section -->
+                <Button
+                    android:id="@+id/btnEducationalDetails"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Enter Educational Details"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:backgroundTint="#6D00ABE4"
+                    android:drawablePadding="8dp" />
+
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Upload Resume Section -->
+                <Button
+                    android:id="@+id/btnResume"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Upload Resume"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:backgroundTint="#6D00ABE4"
+                    android:drawablePadding="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center_vertical">
+
+                <!-- Interview Experience Section -->
+                <Button
+                    android:id="@+id/btnFeedBack"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Interview Experience"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:backgroundTint="#6D00ABE4"
+                    android:drawablePadding="8dp" />
+
+                <Space
+                    android:layout_width="16dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Placement Details Section -->
+                <Button
+                    android:id="@+id/btnPlacementDetails"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="Enter Placement Details"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:backgroundTint="#6D00ABE4"
+                    android:drawablePadding="8dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Logout"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:background="#00ABE4" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:backgroundTint="#00ABE4"
+        android:gravity="center"> <!-- Center both horizontally and vertically -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#0094E4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login Student"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/etStudentId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColorHint="#1c2120"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Phone"
+                android:drawablePadding="8dp" />
+
+            <EditText
+                android:id="@+id/etStudentPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edittext_background"
+                android:padding="16dp"
+                android:textColorHint="#1c2120"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:hint="Enter Password"
+                android:password="true"
+                android:drawablePadding="8dp" />
+
+            <Button
+                android:id="@+id/btnLoginStudent"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/box_background"
+                android:text="Login"
+                android:textColor="#1c2120"
+                android:backgroundTint="#00ABE4"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/tvRegister"
+                android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/box_background"
+                android:text="Register Student"
+                android:textColor="#1c2120"
+                android:backgroundTint="#00ABE4"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

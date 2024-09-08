@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.proj.placementapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlacementApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AluminiDashboardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.AdminDashboardActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.MainScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.StudentDashboardActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.StudentLoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TPODashboardActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.TPODashboardActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TPOLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.TPOLoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentRegisterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.StudentRegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TpoRegisterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.TpoRegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AcademicDetailsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.AcademicDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactDetailsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.ContactDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EducationalDetailsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.EducationalDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UploadResumeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.UploadResumeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Experience_Student"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.Experience_Student" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlacementDetailsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.PlacementDeatailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewStudents"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.ViewStudents" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateEvent"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.CreateEvent" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentDetails"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.StudentDetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tpo_export_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.Tpo_export_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tpo_old_display"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.Tpo_old_display" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tpo_new_display"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.Tpo_new_display" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AluminiLoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.AluminiLoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AluminiRegisterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.AluminiRegisterActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AluminiEventActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.AluminiEventActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AluminiPlacement_Notify"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.AluminiPlacement_Notify" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.Events" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".displayPdf"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.proj.placementapp.displayPdf" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>

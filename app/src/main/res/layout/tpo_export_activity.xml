@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1FA"
+    android:padding="16dp"
+    tools:context=".Tpo_export_activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".Tpo_export_activity">
+
+
+        <Button
+            android:id="@+id/exportOldButton"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn"
+            android:text="2017 - 2023 Student data"
+            android:textColor="#ffffff" />
+
+        <!-- Button for creating placement notifications -->
+        <Button
+            android:id="@+id/exportNewButton"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exportOldButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn"
+            android:text="2023 Onwards student data"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

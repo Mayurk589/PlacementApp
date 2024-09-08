@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9F1FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#0081E4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:text="Student Details"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Buttons Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <!-- View Student Details Button -->
+            <Button
+                android:id="@+id/btnViewAcademics"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#00ABE4"
+                android:text="View Academics"
+                android:textColor="#FFF" />
+
+            <!-- Create Event Button -->
+            <Button
+                android:id="@+id/btnViewContacts"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#00ABE4"
+                android:text="View Contacts Info"
+                android:textColor="#FFF" />
+
+            <!-- Search Button -->
+            <Button
+                android:id="@+id/btnViewEducation"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#00ABE4"
+                android:text="View Education Info"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnViewResume"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#00ABE4"
+                android:text="View Resume"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnViewInter"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#00ABE4"
+                android:text="Interview Experience"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnViewOffer"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#00ABE4"
+                android:text="View Offer Letter"
+                android:textColor="#FFF" />
+
+            <!-- Logout Button -->
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#00ABE4"
+                android:text="back"
+                android:textColor="#FFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
